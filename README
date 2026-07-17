@@ -1,0 +1,10 @@
+i3-dotfiles.
+============
+
+Dependencies:
+-------------
+feh dbus dunst i3 i3lock kitty maim polkit-gnome polybar pulsemixer rofi ttf-iosevkaterm-nerd xorg-setxkbmap xorg-xinput
+
+Screenshot:
+-----------
+https://github.com/sakaki91/i3-dotfiles/screenshot.png
