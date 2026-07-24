@@ -16,8 +16,7 @@ exec --no-startup-id feh --bg-fill ~/Imagens/wallpaper.png
 gaps inner 7
 gaps outer -2
 for_window [class="^.*"] border pixel 1
-client.focused          #d2c7ae #d2c7ae #d2c7ae #d2c7ae
-
+client.focused          #d5c4a1 #d5c4a1 #d5c4a1 #d5c4a1
 bindsym $mod+q kill
 
 bindsym $mod+d exec --no-startup-id rofi -show drun

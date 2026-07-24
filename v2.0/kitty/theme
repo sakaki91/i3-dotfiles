@@ -1,7 +1,7 @@
-foreground            #d2c7ae
-background            #1b1a16
-selection_foreground  #1b1a16
-selection_background  #d2c7ae
+foreground            #d5c4a1
+background            #282828
+selection_foreground  #282828
+selection_background  #d5c4a1
 url_color             #d65c0d
 
 # black

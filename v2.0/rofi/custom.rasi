@@ -1,6 +1,6 @@
 * {
-    background-color:     #1b1a16;
-    text-color:           #d2c7ae;
+    background-color:     #282828;
+    text-color:           #d5c4a1;
     font:                 "Go Mono 9";
 }
 window {
@@ -12,7 +12,7 @@ window {
 }
 horibox {
     orientation: horizontal;
-    children:   [ prompt, entry, listview ];
+    children:   [ entry, listview ];
 }
 listview {
     layout:     horizontal;
@@ -25,10 +25,10 @@ entry {
 }
 element {
     padding: 0px 2px;
+    color: #635d50;
 }
 element selected {
-    background-color: #d2c7ae;
-    color: #1b1a16;
+    color: #d5c4a1;
 }
 
 element-text, element-icon {
