@@ -26,6 +26,7 @@ bindsym $mod+m exec --no-startup-id kitty -- bluetoothctl
 bindsym $mod+n exec --no-startup-id kitty -- pulsemixer
 bindsym $mod+b exec --no-startup-id kitty -- ranger
 bindsym Print exec maim ~/Imagens/$(date +%d-%m-%Y_%H:%M).png
+bindsym Shift+Print exec maim -s ~/Imagens/$(date +%d-%m-%Y_%H:%M).png
 bindsym $mod+Return exec kitty
 
 bindsym $mod+Left focus left
