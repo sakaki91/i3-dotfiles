@@ -1,13 +1,13 @@
 * {
-    background-color:     #282828;
-    text-color:           #d5c4a1;
+    background-color:     #000000;
+    text-color:           #929292;
     font:                 "Go Mono 9";
 }
 window {
     anchor:     north;
     location:   north;
     width:      100%;
-    padding:    7px;
+    padding:    5px;
     children:   [ horibox ];
 }
 horibox {
@@ -25,10 +25,10 @@ entry {
 }
 element {
     padding: 0px 2px;
-    color: #635d50;
+    color: #929292;
 }
 element selected {
-    color: #d5c4a1;
+    color: #ffffff;
 }
 
 element-text, element-icon {

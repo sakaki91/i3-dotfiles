@@ -8,16 +8,16 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec_always --no-startup-id setxkbmap -layout br -model pc105
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id dbus-update-activation-environment --all
-exec --no-startup-id xinput set-prop 7 "Coordinate Transformation Matrix" 1 0 0 0 1 0 0 0 2.5
+exec --no-startup-id xinput set-prop 6 "Coordinate Transformation Matrix" 1 0 0 0 1 0 0 0 2.7
 exec --no-startup-id dunst
 exec --no-startup-id polybar
-exec --no-startup-id feh --bg-fill ~/Imagens/wallpaper.png
+exec --no-startup-id feh --bg-fill ~/.wallpaper.png
 
 gaps inner 7
 gaps outer -2
 for_window [class="^.*"] border pixel 1
-client.focused          #d5c4a1 #d5c4a1 #282828 #d5c4a1 d5c4a1
-client.unfocused        #404040 #404040 #bab6ab #282828 #282828
+client.focused          #ffffff #ffffff #282828 #ffffff #ffffff
+client.unfocused        #000000 #000000 #d8d8d8 #000000 #000000
 
 bindsym $mod+q kill
 
